@@ -1,9 +1,36 @@
 .sony-bar {
-    background-color: black; 
+    background-color: black;
     height: 36px;
 }
+
 .sony-text {
     background-color: white;
-   font-weight: bold;
-   letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.returnal-logo-text {
+    color: #ffcc00;
+    /* Giallo/Oro per il titoletto */
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Questa è fondamentale per non far "sparire" il testo bianco sullo sfondo */
+.custom-text-shadow {
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Il bottone arancione */
+.btn-orange {
+    background-color: red;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: red;
+    color: white;
 }
