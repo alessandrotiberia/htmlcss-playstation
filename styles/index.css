@@ -1,0 +1,9 @@
+.sony-bar {
+    background-color: black; 
+    height: 36px;
+}
+.sony-text {
+    background-color: white;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
